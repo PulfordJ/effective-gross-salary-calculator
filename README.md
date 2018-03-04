@@ -46,12 +46,7 @@ Note that the calculation includes the value of the bonus accumulated even thoug
 To take an example, imagine a bonus that would vest in december at £12,000 and you are in November. To ignore the bonus when calculating the value of November would be highly questionable, but to ignore it in January would be less so; £12,000 next month is more valuable than £12,000 in 12 months.
 ## Installation
 
-Download from http://example.com/FIXME.
-
-
-FIXME: explanation
-
-    $ java -jar salary-0.1.0-standalone.jar [args]
+Follow the instructions found here: https://clojars.org/effective-gross-salary-calculator
 
 ## License
 
