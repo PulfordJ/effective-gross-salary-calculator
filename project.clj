@@ -8,6 +8,7 @@
   :profiles {:uberjar {:aot :all}}  
   :plugins [
             ;Development plugins
-            ;[lein-auto "0.1.3"]
+            [lein-auto "0.1.3"]
             ;[lein-cljfmt "0.5.7"]
+            [lein-bump-version "0.1.6"]
             ])

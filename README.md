@@ -1,3 +1,4 @@
+[![Clojars Project](https://img.shields.io/clojars/v/effective-gross-salary-calculator.svg)](https://clojars.org/effective-gross-salary-calculator)
 [![Build Status](https://travis-ci.org/PulfordJ/effective-gross-salary-calculator.svg?branch=master)](https://travis-ci.org/PulfordJ/effective-gross-salary-calculator)
 
 # effective-gross-salary-calculator
