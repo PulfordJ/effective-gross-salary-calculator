@@ -46,7 +46,7 @@ See tests for more examples.
 
 Note that the calculation includes the value of the bonus accumulated even though it's only acquired if you are employed till the end date. This is to track the fact that the closer you are to a given bonus vesting the more valuable your "month" is and the further away the less valuable.
 
-To take an example, imagine a bonus that would vest in december at £12,000 and you are in November. To ignore the bonus when calculating the value of November would be highly questionable, but to ignore it in January would be less so; £12,000 next month is more valuable than £12,000 in 12 months.
+To take an example, imagine a bonus that would vest in December at £12,000 and you are in November. To ignore the bonus when calculating the value of November would be highly questionable, but to ignore it in January would be less so; £12,000 next month is more valuable than £12,000 in 12 months.
 ## Installation
 
 Follow the instructions found here: https://clojars.org/effective-gross-salary-calculator
