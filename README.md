@@ -39,6 +39,7 @@ Will get you:
  :months 12,
  :effective-salary-for-year 12600}
 ```
+See tests for more examples.
 
 Note that the calculation includes the value of the bonus accumulated even though it's only acquired if you are employed till the end date. This is to track the fact that the closer you are to a given bonus vesting the more valuable your "month" is and the further away the less valuable.
 
