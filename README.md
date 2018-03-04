@@ -34,12 +34,12 @@ This calculator allows you to add various aspects of salary such as; base-salary
 Will get you:
 
 ```clojure
-{:base-salary 12000, 
- :bonus 600, 
- :total 12600,
- :total-per-month 1050,
+{:base-salary 18000,
+ :bonus 600,
+ :total 18600,
+ :total-per-month 1550,
  :months 12,
- :effective-salary-for-year 12600}
+ :effective-salary-for-year 18600}
 ```
 See tests for more examples.
 

@@ -25,7 +25,7 @@
    ]
   )
 
-(def salaries-with_prorata_bonustimetable
+(def salaries-with-prorata-signon-timetable
   [
    ;A typical salary
    [12000 
@@ -78,7 +78,7 @@
     (is (= (year-stats salaries-timetable bonuses-timetable (t/date-time 2018 1)) {:base-salary 24000, :bonus 3600, :total 27600, :total-per-month 2300, :months 12, :effective-salary-for-year 27600}))
     )
   (testing "year-stats for january 2018 with bonus that runs July 2017-2018"
-    (is (= (year-stats salaries-timetable bonuses-halfway-through-year-timetable (t/date-time 2017 1)) {:base-salary 12000, :bonus 600, :total 12600, :total-per-month 1050, :months 12, :effective-salary-for-year 12600} ))
+    (is (= (year-stats salaries-with-prorata-signon-timetable bonuses-halfway-through-year-timetable (t/date-time 2017 1)) {:base-salary 18000, :bonus 600, :total 18600, :total-per-month 1550, :months 12, :effective-salary-for-year 18600} ))
     )
 
   (testing "total-base-salary"
