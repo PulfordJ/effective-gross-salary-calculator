@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/PulfordJ/effective-gross-salary-calculator.svg?branch=master)](https://travis-ci.org/PulfordJ/effective-gross-salary-calculator)
+
 # effective-gross-salary-calculator
 
 This calculator allows you to add various aspects of salary such as; base-salary, pro-rataed bonus and typical bonus that vests on a given date to calculate an effective gross salary over a given period of time.
