@@ -18,7 +18,9 @@
 (defn effective-bonus [bonus-amount, bonus-start-date, bonus-end-date, start-date, end-date]
     (if (or 
           (t/before? bonus-end-date start-date)
-          (t/before? end-date bonus-start-date))
+          (t/before? end-date bonus-start-date)
+          (t/equal? start-date bonus-end-date)
+          )
 
       0
       ( * (/ bonus-amount (t/in-months (t/interval bonus-start-date bonus-end-date))) (t/in-months (t/interval bonus-start-date (if (t/before? bonus-end-date end-date) bonus-end-date end-date)))

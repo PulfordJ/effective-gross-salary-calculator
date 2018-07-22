@@ -1,4 +1,4 @@
-(defproject effective-gross-salary-calculator "1.0.2"
+(defproject effective-gross-salary-calculator "1.0.3"
   :description "This calculator allows you to add various aspects of salary such as; base-salary, pro-rataed bonus and bonus that vests on a given date to calculate an effective gross salary over a given period of time."
   :url "https://github.com/PulfordJ/effective-gross-salary-calculator"
   :license {:name "Apache Licence 2.0"
